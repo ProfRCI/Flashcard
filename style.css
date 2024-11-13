@@ -5,7 +5,8 @@
 }
 
 body {
-    background: url('bg-desktop.webp');
+    background: rgb(34,195,136);
+    background: linear-gradient(0deg, rgba(34,195,136,1) 0%, rgba(45,74,253,1) 100%);
     font-family: Bai Jamjuree;
 }
 
@@ -99,7 +100,7 @@ footer p {
 @media (max-width: 560px) {
     
     body {
-        background: url('bg-mobile.webp'), no-repeat cover;
+        background: url('img/bg-mobile.webp'), no-repeat cover;
     }
 
     .cartao {
